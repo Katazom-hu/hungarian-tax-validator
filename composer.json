@@ -1,0 +1,38 @@
+{
+  "name": "katazom/hungarian-tax-validator",
+  "description": "Magyar adószám (CDV ellenőrzőösszeg, áfakód, megyekód) és KATA adózási szabály validátor könyvtár a Katazom.hu-tól.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://katazom.hu",
+  "authors": [
+    {
+      "name": "Katazom.hu Fejlesztői Csapat",
+      "email": "kapcsolat@katazom.hu",
+      "homepage": "https://katazom.hu"
+    }
+  ],
+  "keywords": [
+    "hungary",
+    "adoszam",
+    "tax-number",
+    "cdv",
+    "kata",
+    "katazom",
+    "nav",
+    "validator",
+    "invoicing"
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Katazom\\TaxValidator\\": "src/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/Katazom-hu/hungarian-tax-validator/issues",
+    "source": "https://github.com/Katazom-hu/hungarian-tax-validator",
+    "docs": "https://katazom.hu/tudastar"
+  }
+}
